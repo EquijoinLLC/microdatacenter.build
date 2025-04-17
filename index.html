@@ -1,0 +1,480 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="http://microdatacenter.build/">
+      
+      
+      
+        <link rel="next" href="design/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Micro Data Center Guides</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.2afb09e1.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#micro-data-center-community" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Micro Data Center Guides" class="md-header__button md-logo" aria-label="Micro Data Center Guides" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Micro Data Center Guides
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Micro Data Center Community
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Micro Data Center Guides" class="md-nav__button md-logo" aria-label="Micro Data Center Guides" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Micro Data Center Guides
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Micro Data Center Community
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Micro Data Center Community
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-micro-datacenter" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a micro datacenter?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upcoming-developements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Upcoming developements
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="software-installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Software Installation and Configuration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-micro-datacenter" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a micro datacenter?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upcoming-developements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Upcoming developements
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="micro-data-center-community">Micro Data Center Community</h1>
+<h2 id="what-is-a-micro-datacenter">What is a micro datacenter?</h2>
+<p>This is largely <a href="https://github.com/robgil/microdatacenter">Rob Gil's</a> opinion if you're looking for someone to blame, but for the purposes of this project, we'll define it as the following.</p>
+<blockquote>
+<p>A micro datacenter is a fully functioning, ultra low power, and distributed datacenter. It contains all the functionality of a real datacenter, but small enough that you can run it off a 20A 110V outlet.</p>
+</blockquote>
+<p>Also</p>
+<blockquote>
+<p>it's bare metal...</p>
+</blockquote>
+<p>Why do I need a datacenter?</p>
+<p>As more and more services increase their costs, build walled gardens of content, and exploit our information for profit, many are looking to move to an alternative they can trust, themselves. It isn't necessarily easy to know how to do this in a time and cost efficient manner, especially in an eco-friendly matter. But it does gain you a lot of freedoms. For many of us, it is even fun!</p>
+<ul>
+<li>Privacy and the ability to migrate off of large centralized services to minimize your footprint in surveillance capitalism.</li>
+<li>Lower chatty traffic between the devices on your network and them phoning home.</li>
+<li>Lower your monthly subscription spend.</li>
+<li>Own your digital content.</li>
+<li>Run services to support your own business.</li>
+<li>Small business networking.</li>
+<li>Run AI on your data without training someone else's.</li>
+</ul>
+<p>Sure, but what is the maintenance cost? What if I have a power outage or a hardware mailfunction?</p>
+<p>This is where having a community is valuable that goes beyond just sharing some quick tips on installation, but also shares design and strategy to mitigate issues like data loss and down time without dedicating yourself to a life of on call duty. When you inevitibly do face an outage, you have a lot of folks hanging around who have experienced much of the same, so they can help dig you out while you're in panic mode, and then cover how to avoid that same issue moving forward. </p>
+<p>Many of us starting this community have experience with how large corporations ensure that consumers rarely experience downtime and fortunately for you, they layed a bunch of us off, so we are ready to share this wisdom with many of you! Who knows, as we grow and develop intertwining systems as a community, we may be able to build networks akin to the <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">ipfs</a> that use trusted freinds to hold copies of your data if something goes terribly wrong. </p>
+<p>Why a microdatacenter?</p>
+<p>Most folks, myself included, have always run some form of lab at home. This comes with a host of challenges and annoyances.
+- Enormous power requirements for anything more than 1/2 a rack of servers
+- Expensive, power hungry servers
+- Old servers that are out of support, clunky, expensive to fix and upgrade, etc
+- Overloading those servers with VMs
+- Many folks run VMWare ESX, but that can be pricey
+- Upgrades? What's that? 
+  - Who actually has the funds to regularly ugprade their lab?</p>
+<h2 id="upcoming-developements">Upcoming developements</h2>
+<p>This site is under heavy development, but first, why yet another homelab/selfhosted community?</p>
+<p>Our goal is to do a better job at consolidating the tutorials, mental models, and language in the amazing and existing communities (<a href="https://www.reddit.com/r/homelab/">r/homelab</a>, <a href="https://www.reddit.com/r/minilab/">r/minilab</a>, <a href="https://www.reddit.com/r/selfhosted/">r/selfhosted</a>, <a href="https://www.reddit.com/r/HomeServer/">r/HomeServer</a>, <a href="https://github.com/Wakoma/openminilab">openminilabs</a>, <a href="https://github.com/geerlingguy/mini-rack">mini-rack</a>, <a href="https://www.reddit.com/r/HomeNetworking/">r/HomeNetworking</a>) index those communities, and serve as the most ideal way to get started in this potentially large and complicated space of hosting your own services.</p>
+<p>Some nearterm goals:</p>
+<ol>
+<li>Simplify the existing "single" design into a getting started design that showcases a relatively cheap and affordable build, but starts to modularize the focus of various guides that build on the simple getting started guide.</li>
+<li>Break out guides into different taxonomies (Hardware:Motherboard/Memory/Disk/CPU/GPUs/TPUs/Thermal/Network/Power/Disks/Rack/etc.., Ops:VMs/Containers/Managers/Hypervisor/Configuration/KVM/Netboot/etc.., Software:Storage/Git/Forejo/Certbot/ Personal Software: Nextcloud/Immich/Monero/)</li>
+<li>Create a Recommendations index for technologies, people, and other stuff to watch and over time provide the ability for community driven benchmarks or showcases.</li>
+<li>Build out a Discord Forum to discuss topics in a more managed way as oppossed to the Reddit design.</li>
+<li>Recycle guides - initially, these guides focus on small, quiet, energy efficient builds using smaller micro servers like Raspberry Pi. This is not only pragmatic from a cost and energy savings, but supports smaller chip and dev board manufactures (especially built on open instruction sets like RISC-V). However, there is another consideration as we transition to a smaller interconnected network of nodes, and that is what do we do with servers that will inevitibly start spinning down and heading towards the landfill for children in Ghana to dissassemble? Well, we will also talk about standard homelab transformation of the most common larger systems. Although these won't be energy efficient, we as a community can also look into ways of opitmizing the most power hungry boards to something a bit closer to enable their reuse. When boards are at their end of life, we can also start to look at distributed recycling guides.</li>
+</ol>
+<p>Some longterm goals:</p>
+<ol>
+<li>Compile and provide guides on basic and intermediate Linux commands so that anyone, not just software engineers, can self-educate on the necessary understanding of systems administration.</li>
+<li>Compile and provide guides on computer, network, nad security basics so that anyone hosting their services can avoid the most common pitfalls in their security model.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
