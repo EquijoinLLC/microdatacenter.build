@@ -1,0 +1,4 @@
+site_name: Micro Data Center Guides
+site_url: http://microdatacenter.build
+theme:
+  name: material
